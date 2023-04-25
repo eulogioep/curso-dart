@@ -1,5 +1,6 @@
-# curso-dart
-Ejercicios del curso de Dart del profesor Fernando Herrera
+# Curso de Dart: De cero hasta los detalles.
+
+Apuntes y ejercicios del curso de Dart del profesor Fernando Herrera.
 
 * Módulo 1:
     - Tipos de Datos.

@@ -15,8 +15,8 @@ main() {
   
    */
 
-  stdout.writeln('Introduce un número para crear su tabla de multiplicar:');
-  int num = int.parse(stdin.readLineSync() ?? '0');
+  imprimir('Introduce un número para crear su tabla de multiplicar:');
+  int num = int.parse(leer() ?? '0');
 
   print('Tabla del $num:\n');
   for (int i = 0; i <= 10; i++) {

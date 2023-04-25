@@ -16,9 +16,9 @@ main() {
 
   while (continuar == 'y') {
     contador++;
-    stdout.writeln('Contador: $contador');
+    imprimir('Contador: $contador');
 
-    stdout.writeln('¿Desea continuar? (y/n)');
-    continuar = stdin.readLineSync()!.toLowerCase(); //convierte a minúsculas
+    imprimir('¿Desea continuar? (y/n)');
+    continuar = leer()!.toLowerCase(); //convierte a minúsculas
   }
 }
