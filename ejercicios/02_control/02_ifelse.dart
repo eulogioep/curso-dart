@@ -1,10 +1,10 @@
 import 'dart:io';
 
 main() {
-  imprimir('¿Cuál es tu edad?');
+  stdout.writeln('¿Cuál es tu edad?');
   //Hacemos cast para convertir el string en int
   //Safe Null nos obliga a indicar si es nulo, darle un valor 0 por defecto
-  int edad = int.parse(leer() ?? '0');
+  int edad = int.parse(stdin.readLineSync() ?? '0');
 
   //print('Tu edad es: $edad');
 
@@ -34,12 +34,12 @@ main() {
   Otra forma sería:
 
   if(edad >= 21){
-    imprimir('Ciudadano');
+    stdout.writeln('Ciudadano');
   }else{
     if(edad >= 18){
-      imprimir('Mayor de edad');
+      stdout.writeln('Mayor de edad');
     }else{
-      imprimir('Menmor de edad');
+      stdout.writeln('Menmor de edad');
     }
   }
    */
